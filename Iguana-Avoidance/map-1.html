@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Map 1 starter</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: whitesmoke;
+            font-family: Lato, sans-serif;
+            color: #0D0000;
+        }
+        header {
+            padding: 6px 10%;
+        }
+        h1 {
+            display: inline-block;
+            margin-right: 20px;
+            color: #001323;
+        }
+        h2 {
+            display: inline-block;
+            color: #001323;
+        }
+        #map {
+            width: 80%;
+            height: 540px;
+            margin: 10px auto;
+        }
+        footer {
+            padding: 6px 10%;
+            width: 80%;
+        }
+        p {
+            font-size: 1em;
+            color: #001323;
+        }
+        /* Additional style rules go here! */
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Alien Iguana Avoidance</h1>
+        <h2>Melbourne, Australia</h2>
+    </header>
+
+    <div id='map'></div>
+
+    <footer>
+        
+// steps and 11 and 12 below        
+        <p>Map authored by Michael Williams</p>
+        <p>Iguana avoidance and saftey check:</p>
+        <p>To ensure safe travel enroute to the Runaway Country Music Fest, select your location on the map by clicking. If any of the Blue Iguana Landing Zones become Red, please relocate to a distance more than 2200 meters away to remain safe. Lord Mayor Robert Doyle and the City of Melbourne wish you the very best in this time of crisis. 
+        </p>
+    </footer>
+
+    <script>
+
+ // Step 1 and 2 here
+        
+        var options = {
+            center: [-37.8136, 144.9631],
+            zoom: 11,
+            minZoom: 4,
+            maxZoom: 12
+        }
+    
+        var map = L.map('map', options);
+        
+        
+        var tiles = L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+	           attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            });
+        
+        map.addLayer(tiles);
+        
+        var iguanaZones = [
+            {
+                name: 'lz1',
+                coordinates: [-37.854506, 144.797431],
+                properties: {
+                    size: 1850
+                }
+            },
+            {
+                name: 'lz2',
+                coordinates: [-37.749253, 144.855108],
+                properties: {
+                    size: 2500
+                }
+            },
+            {
+                name: 'lz3',
+                coordinates: [-37.770967, 144.943686],
+                properties: {
+                    size: 2150
+                }
+            },
+            {
+                name: 'lz4',
+                coordinates: [-37.720472, 145.002051],
+                properties: {
+                    size: 2000
+                }
+            },
+            {
+                name: 'lz5',
+                coordinates: [-37.774767, 145.033635],
+                properties: {
+                    size: 2500
+                }
+            },
+            {
+                name: 'lz6',
+                coordinates: [-37.827394, 145.040503],
+                properties: {
+                    size: 2350
+                }
+            },
+            {
+                name: 'lz7',
+                coordinates: [-37.767711, 145.116720],
+                properties: {
+                    size: 1100
+                }
+            },
+            {
+                name: 'lz8',
+                coordinates: [-37.829563, 145.129767],
+                properties: {
+                    size: 1450
+                }
+            },
+            {
+                name: 'lz9',
+                coordinates: [-37.779108, 145.749365],
+                properties: {
+                    size: 950
+                }
+            },
+            {
+                name: 'lz10',
+                coordinates: [-37.868059, 145.0714022],
+                properties: {
+                    size: 2000
+                }
+            },
+            {
+                name: 'lz11',
+                coordinates: [-37.932565, 145.080328],
+                properties: {
+                    size: 1700
+                }
+            },
+            {
+                name: 'lz12',
+                coordinates: [-37.873479, 145.1963717],
+                properties: {
+                    size: 1200
+                }
+            }
+        ]; // end iguanaShips data
+        
+        
+//      steps 3 here
+        
+        var safeOptions = {
+            color: 'blue',
+            fillColor: 'bule'
+        }
+        
+        var dangerOptions = {
+            color: 'red',
+            fillColor: 'red'
+        }
+        
+//      steps 4-6  here
+        
+        var iguanaGroup = L.layerGroup();
+        
+     
+        for (var i = 0 ; i < iguanaZones.length; i++) {
+            
+            
+            L.circle(iguanaZones[i].coordinates, iguanaZones[i].properties.size).addTo(iguanaGroup)
+            
+//        console.log(i);
+        }
+        
+        iguanaGroup.addTo(map);
+            
+                                        
+        var marker;  // keep this code
+       
+        map.on('click', function(e) {  // keep this code
+
+// uncomment this code after step seven is finished          
+            if(map.hasLayer(marker)) {               
+                map.removeLayer(marker);
+            }
+
+//              step seven here   
+            var click = e.latlng;
+            
+            marker = L.marker(click);
+            
+            marker.addTo(map);         
+            
+//              step eight here
+            
+            testDistance(click);
+            
+        });  // keep this code
+        
+        function testDistance(click) {
+            
+            iguanaGroup.eachLayer(function(layer) {
+//              step 9 here
+                
+                var center = layer.getLatLng();
+                
+//                console.log(center);
+                
+                var radius = layer.getRadius();
+                
+//                console.log(radius);
+                
+                var clicktoCenter = center.distanceTo(click);
+                
+//                console.log(clicktoCenter);
+                
+                var clickFromRadius = (clicktoCenter - radius);
+                
+//                console.log(clickFromRadius);
+                
+//              step 10 here
+                
+                if (clickFromRadius < 2200) {
+                    layer.setStyle(dangerOptions);
+                }
+                else if (clickFromRadius > 2200) {
+                    layer.setStyle(safeOptions);
+                };
+                
+            });
+        }
+        
+// end map1 code
+        
+    </script>
+    
+</body>
+
+</html>
