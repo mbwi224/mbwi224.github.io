@@ -16,7 +16,7 @@
                 width: 100%;
                 min-width: 800px;
                 margin: 0 auto;
-                background: steelblue;
+                background: #4088c4;
                 padding: 50px 0 30px;
             }
         h1 { 
@@ -36,7 +36,7 @@
         
         h3 {
             font-family: Lato, sans-serif;
-            color: #003d71
+            color: #00368d
         }
         p { 
             font-size: .9em; 
@@ -51,14 +51,34 @@
         a, a:visited {   
             color: #003d71;
         }
+    
+        .project {
+            width: 80%;
+            min-width: 800px;
+            height: 100%;
+            margin: 35px auto;
+        }
+        .project:after{
+            content: "";
+            display: table;
+            clear: both; 
+        }
+        .project-image {
+            width: 388px;
+            height: 240px;
+            background: whitesmoke;
+            float: left;
+            margin-right: 20px;
+            border: 2px solid #a8a8a8;
+        }
 
 </style>
 </head>
     
 <body>
     <header>
-        <h1>Geo409 &ndash; 709: Advanced GIS</h1>
-        <h2>Web Mapping at the University of Kentucky</h2>
+        <h1>Geo409: Advanced GIS Project Portfolio</h1>
+        <h2>Michael Williams</h2>
     </header>
 
 
@@ -66,8 +86,8 @@
 <section class="project">
         <image src="Images/Map1.jpg" alt="Melbourne Iguana Avoidance Map" class="project-image"/>
         <h3><a target="_blank" href="Iguana-Avoidance/map-1.html">Melbourne Iguana Avoidance Map</a></h3>
-        <p>Description of Map</p>
-        <p>Description of how the map works</p>
+        <p>Description of Map: In light of a recent space iguana attack on Melbourne Australia, this map has been created to allow those within the city to avoid the attackers</p>
+        <p>Description of how the map works: Displaying both the city of Melbourne and the iguana attack land zones, a user may click on the map to determine if they are in danger of attack.</p>
         <ul>
             <li>See The Map: <a href="Iguana-Avoidance/map-1.html" />Iguana Avoidance Map</a></li>
             <li>See the <a href="https://github.com/mbwi224/GEO409/blob/master/map-01/map-1.html">code for this map hosted on Github</a></li>
@@ -76,10 +96,10 @@
             
 <!--Section 2-->
 <section class="project">
-        <image src="images/Map3.jpg" alt="US Power Plant Map" class="project-image"/>
+        <image src="Images/Map3.jpg" alt="US Power Plant Map" class="project-image"/>
         <h3><a target="_blank" href="Power-Plant/Map3.html">United States Power Plants</a></h3>
-        <p>Description of Map</p>
-        <p>Description of how the map works</p>
+        <p>Description of Map: Display of United States power plants scaled and colored according to their output and type.</p>
+        <p>Description of how the map works: A user may select the types of power production displayed and click on the map to show all the plants producing this type within 500km of this point. If a user double-clicks, the radius is reduced to 200km.</p>
         <ul>
             <li>See The Map: <a href="Power-Plant/Map3.html" />Power Plant Map</a></li>
             <li>See the <a href="https://github.com/mbwi224/GEO409/blob/master/map-03/Map3.html">code for this map hosted on Github</a></li>
@@ -90,8 +110,8 @@
 <section class="project">
         <image src="images/Map4.jpg" alt="KY Unemployment" class="project-image"/>
         <h3><a target="_blank" href="KY-Unemployment/map4.html">Kentucky Unemployment by County: 2000 &ndash; 2013</a></h3>
-        <p>Description of Map</p>
-        <p>Description of how the map works</p>
+        <p>Description of Map: Drawing on thirteen years of county unemployment data, this map allows a user to see how this variable has changed over time.</p>
+        <p>Description of how the map works: With multiple layers of interactivity, the user can select specific counties to display data for, as well as see the overall trend in relation to the rest of the state.</p>
         <ul>
             <li>See The Map: <a href="KY-Unemployment/map4.html" />Unemployment Map</a></li>
             <li>See the <a href="https://github.com/mbwi224/GEO409/blob/master/map-04/map4.html">code for this map hosted on Github</a></li>
@@ -102,10 +122,10 @@
 <section class="project">
         <image src="images/FinalMap.jpg" alt="World Land Use Map" class="project-image"/>
         <h3>Land Use of Selected Countries</h3>
-        <p>Description of Map</p>
-        <p>Description of how the map works</p>
+        <p>Description of Map: The goal of this map is to display the land use variables of forest, cropland, and, 'other' in ralation to major cities within five countries in Africa. In addition, there cities will be scaled depending on population.</p>
+        <p>Description of how the map works: A user will be able to select a country and the map will pan to that location. From here, symbols will display the different map attributes by size and color. If a user is looking for a more detailed description of this information, thay may click on a city to display this.</p>
         <ul>
-            <li>See The Map: (**In Progress**) <a href="FinalMap/" />Iguana Avoidance Map</a></li>
+            <li>See The Map: (**In Progress**) <a href="FinalMap/" />Five Country African Land Use Map</a></li>
             <li>See the <a href="https://github.com/mbwi224/GEO409/blob/master/map-01/map-1.html">code for this map hosted on Github</a> (**In Progress**)</li>
         <ul>
     </section>
