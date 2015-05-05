@@ -1,0 +1,55 @@
+"SOV_A3","NAME","POP_EST","GDP_MD_EST","ECONOMY","SUBREGION","Cropland%_Series Name","Cropland%_Series Code","Cropland%_Country Name",2005,2006,2007,2008,2009,2010,2011,2012
+"AGO","Angola",12799293,110300,"7. Least developed region","Middle Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Angola",2.6,2.6,2.7,2.7,3.2,3.3,3.8,3.9
+"BDI","Burundi",8988091,3102,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Burundi",37.2,35,33.1,35,37,37,38.9,42.8
+"BEN","Benin",8791832,12830,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Benin",23.9,22.2,22.2,23.1,21.7,22.5,22.9,23.9
+"BFA","Burkina Faso",15746232,17820,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Burkina Faso",17.9,17.2,17.9,21.9,20.8,21.9,20.8,21.9
+"BWA","Botswana",1990876,27060,"6. Developing region","Southern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Botswana",0.4,0.4,0.3,0.5,0.6,0.5,0.6,0.5
+"CAF","Central African Rep.",4511488,3198,"7. Least developed region","Middle Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Central African Republic",3.1,3.1,3.1,3.1,3.1,2.9,2.9,2.9
+"CIV","Côte d'Ivoire",20617068,33850,"6. Developing region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Cote d'Ivoire",8.8,8.8,9.1,9.1,9.1,9.1,9.1,9.1
+"CMR","Cameroon",18879301,42750,"6. Developing region","Middle Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Cameroon",12.6,12.6,12.6,12.6,12.6,13.1,13.1,13.1
+"COD","Dem. Rep. Congo",68692542,20640,"7. Least developed region","Middle Africa",,,,"NA","NA","NA","NA","NA","NA","NA","NA"
+"COG","Congo",4012809,15350,"6. Developing region","Middle Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Congo, Rep.",1.4,1.4,1.4,1.4,1.5,1.5,1.6,1.6
+"COM","Comoros",752438,751.2,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Comoros",43,43,43,43,43,45.1,46.7,47.3
+"CPV","Cape Verde",429474,1626,"6. Developing region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Cabo Verde",11.7,11.7,11.7,11.7,11.7,11.7,11.7,11.7
+"DJI","Djibouti",516055,1885,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Djibouti",0,0.1,0.1,0.1,0.1,0.1,0.1,0.1
+"DZA","Algeria",34178188,232900,"6. Developing region","Northern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Algeria",3.2,3.1,3.1,3.1,3.1,3.1,3.1,3.2
+"EGY","Egypt",83082869,443700,"5. Emerging region: G20","Northern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Egypt, Arab Rep.",2.6,2.6,2.6,2.7,2.9,2.9,2.8,2.8
+"ERI","Eritrea",5647168,3945,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Eritrea",6.1,6.6,6.6,6.6,6.8,6.8,6.8,6.8
+"ETH","Ethiopia",85237338,68770,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Ethiopia",12.8,13.4,14,13.6,13.9,14.6,15.2,15.3
+"GAB","Gabon",1514993,21110,"6. Developing region","Middle Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Gabon",1.3,1.3,1.3,1.3,1.3,1.3,1.3,1.3
+"GHA","Ghana",23832495,34200,"6. Developing region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Ghana",17.6,18.5,18.9,19.8,20.2,20.3,20.7,20.7
+"GIN","Guinea",10057975,10600,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Guinea",11.2,11.2,11.4,11.6,11.6,11.8,11.8,12.2
+"GMB","Gambia",1782893,2272,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Gambia, The",32.6,29,29.9,36.8,42.3,44.5,44.5,43.5
+"GNB","Guinea-Bissau",1533964,904.2,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Guinea-Bissau",10,10,10,10,10,10.7,10.7,10.7
+"GNQ","Eq. Guinea",650702,14060,"7. Least developed region","Middle Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Equatorial Guinea",4.6,4.6,4.6,4.6,4.3,4.3,4.3,4.3
+"KEN","Kenya",39002772,61510,"5. Emerging region: G20","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Kenya",9.2,9.3,9.3,9.3,9.7,9.7,9.8,9.8
+"LBR","Liberia",3441790,1526,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Liberia",4.2,4.2,4.2,4.5,4.9,5,5.2,5.2
+"LBY","Libya",6310434,88830,"6. Developing region","Northern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Libya","NA","NA","NA","NA","NA","NA","NA","NA"
+"LSO","Lesotho",2130819,3293,"7. Least developed region","Southern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Lesotho",10.6,10,10.7,11.8,11,10.6,10.1,9.3
+"MAR","Morocco",34859364,136600,"6. Developing region","Northern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Morocco",18.2,18.1,18.1,18,18,17.3,17.5,18
+"MDG","Madagascar",20653556,20130,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Madagascar",5.2,5.2,5.2,5.5,6,6,6,6
+"MLI","Mali",12666987,14590,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Mali",4.6,4.7,4.8,4.7,5.1,5.1,5.6,5.6
+"MOZ","Mozambique",21669278,18940,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Mozambique",6.4,6.2,6.5,6.6,6.7,7.2,7.2,7.2
+"MRT","Mauritania",3129486,6308,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Mauritania",0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4
+"MWI","Malawi",14268711,11810,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Malawi",33.9,35,31.8,36.6,37.1,39.2,38.2,39.8
+"NAM","Namibia",2108665,13250,"6. Developing region","Southern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Namibia","NA","NA","NA","NA","NA","NA","NA","NA"
+"NER","Niger",15306252,10040,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Niger",11.1,11.2,11.8,11.8,11.8,11.9,12.3,12.6
+"NGA","Nigeria",149229090,335400,"5. Emerging region: G20","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Nigeria",39.5,40.4,40.6,39.5,35.1,36.2,37.3,38.4
+"RWA","Rwanda",10473282,9706,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Rwanda",44.2,45.4,46.3,46.4,46.4,46.6,47,47.9
+"SAH","W. Sahara",-99,-99,"7. Least developed region","Northern Africa",,,,"NA","NA","NA","NA","NA","NA","NA","NA"
+"SDN","Sudan",25946220,88080,"6. Developing region","Northern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Sudan",7.9,7.9,8.1,8.1,7.9,7.9,7.2,8.9
+"SDS","S. Sudan",10625176,13227,"7. Least developed region","Eastern Africa",,,,"NA","NA","NA","NA","NA","NA","NA","NA"
+"SEN","Senegal",13711597,21980,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Senegal",16.5,15.5,15.5,19,20,20,17.4,17.4
+"SLE","Sierra Leone",6440053,4285,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Sierra Leone",20.4,23.4,17.8,19,20.2,21.9,23.4,24
+"SOL","Somaliland",3500000,12250,"6. Developing region","Eastern Africa",,,,"NA","NA","NA","NA","NA","NA","NA","NA"
+"SOM","Somalia",9832017,5524,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Somalia",2.2,1.8,1.6,1.8,1.8,1.8,1.8,1.8
+"STP","São Tomé and Principe",212679,276.5,"7. Least developed region","Middle Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Sao Tome and Principe",8.3,8.3,8.9,9.4,9.4,8.9,9.1,9.1
+"SWZ","Swaziland",1123913,5702,"6. Developing region","Southern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Swaziland",10.3,10.3,10.3,10.3,10.2,10.2,10.2,10.2
+"TCD","Chad",10329208,15860,"7. Least developed region","Middle Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Chad",3.6,3.5,3.4,3.4,3.4,3.6,3.9,3.9
+"TGO","Togo",6019877,5118,"7. Least developed region","Western Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Togo",38.6,38.6,42.5,43,44.1,45.2,45.2,48.7
+"TUN","Tunisia",10486339,81710,"6. Developing region","Northern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Tunisia",17.6,17.8,17.6,18.2,17.4,18.2,18.3,18.3
+"TZA","Tanzania",41048532,54250,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Tanzania",11,11,11.3,12.8,13,13.1,14.3,16.4
+"UGA","Uganda",32369558,39380,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Uganda",29.8,30.5,31.3,32.3,33,33.8,34.3,34.5
+"ZAF","South Africa",49052489,491000,"5. Emerging region: G20","Southern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","South Africa",10.9,10.4,10.4,10.6,10.4,10.3,9.9,9.9
+"ZMB","Zambia",11862740,17500,"7. Least developed region","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Zambia",3.7,4.1,4,4.1,4.8,4.6,4.8,5.1
+"ZWE","Zimbabwe",12619600,9323,"5. Emerging region: G20","Eastern Africa","Arable land (% of land area)","AG.LND.ARBL.ZS","Zimbabwe",10.1,10.6,10.3,11,10.6,10.3,10.9,10.3
